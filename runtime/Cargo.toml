@@ -4,10 +4,10 @@ branch = 'polkadot-v0.9.8'
 version = '4.0.0'
 
 [package]
-authors = ['Substrate DevHub <https://github.com/substrate-developer-hub>']
+authors = ['Alfredo Lopez <alfredolopez80@gmail.com>']
 edition = '2018'
 homepage = 'https://substrate.dev'
-license = 'Unlicense'
+license = 'MIT or Apache-2.0'
 name = 'node-template-runtime'
 repository = 'https://github.com/substrate-developer-hub/substrate-node-template/'
 version = '3.0.0'
@@ -39,6 +39,7 @@ std = [
     'pallet-randomness-collective-flip/std',
     'pallet-sudo/std',
     'pallet-template/std',
+	'pallet-nodle/std',
     'pallet-timestamp/std',
     'pallet-transaction-payment-rpc-runtime-api/std',
     'pallet-transaction-payment/std',
@@ -136,6 +137,10 @@ version = '3.0.0'
 default-features = false
 path = '../pallets/template'
 version = '3.0.0'
+
+[dependencies.pallet-nodle]
+default-features = false
+path = '../pallets/nodle'
 
 [dependencies.pallet-timestamp]
 default-features = false

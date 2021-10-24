@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/alfredolopez/Documents/GitHub/SUBS.DEV/exercise-1-and-2'
+cargo run -- --dev --tmp
+make: Leaving directory `/Users/alfredolopez/Documents/GitHub/SUBS.DEV/exercise-1-and-2'
+ 
